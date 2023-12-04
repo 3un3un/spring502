@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8452928-4719-45ae-a5fa-64910a3236eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Book2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Book3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exam02/src/main/java/exam04/Ex03.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Yv7Lgkuj73JO8DxdAfqN2YiOJf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/김은진/2. 서블릿 & JSP/exam03"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8452928-4719-45ae-a5fa-64910a3236eb" name="Changes" comment="" />
+      <created>1701394144479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701394144479</updated>
+    </task>
+    <servers />
+  </component>
+</project>
