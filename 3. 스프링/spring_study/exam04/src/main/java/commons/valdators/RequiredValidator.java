@@ -1,4 +1,4 @@
-package commons.validators;
+package commons.valdators;
 
 import org.springframework.util.StringUtils;
 

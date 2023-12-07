@@ -6,8 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Ex01 {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext ctx = new
-                AnnotationConfigApplicationContext(AppCtx.class);
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppCtx.class);
 
         Greeter g1 = ctx.getBean("greeter", Greeter.class);
         g1.hello("이이름");
@@ -16,6 +15,5 @@ public class Ex01 {
         System.out.println(g1 == g2);
 
         ctx.close();
-
     }
 }

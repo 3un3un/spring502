@@ -9,6 +9,8 @@ public class AppCtx {
 
     @Bean
     public Greeter greeter() {
+
         return new Greeter();
     }
+
 }

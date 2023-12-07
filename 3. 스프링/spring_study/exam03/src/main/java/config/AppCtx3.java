@@ -11,15 +11,15 @@ import java.util.Date;
 @Configuration
 public class AppCtx3 {
     @Bean
-    @Primary
+    //@Primary
     public MemberDao memberDao() {
         return new MemberDao();
     }
 
-    @Bean
+  /*  @Bean
     public MemberDao memberDao2() {
         return new MemberDao();
-    }
+    }*/
 
     //@Bean
     public DateTimeFormatter formatter(){

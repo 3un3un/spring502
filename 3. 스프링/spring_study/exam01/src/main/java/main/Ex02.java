@@ -2,7 +2,6 @@ package main;
 
 import models.Greeter;
 
-import java.lang.invoke.MethodHandle;
 import java.lang.reflect.Method;
 
 public class Ex02 {
@@ -10,7 +9,7 @@ public class Ex02 {
         Class cls = Greeter.class; // 클래스 정보가 담겨 있는 객체
 
         Method[] methods = cls.getMethods();
-        for(Method method : methods) {
+        for (Method method : methods) {
             System.out.println(method);
         }
 
@@ -18,7 +17,8 @@ public class Ex02 {
         int result2 = add(30, 40);
     }
 
-    public static int add(int num1, int num2){
+
+    public static int add(int num1, int num2) {
         return num1 + num2;
     }
 }
