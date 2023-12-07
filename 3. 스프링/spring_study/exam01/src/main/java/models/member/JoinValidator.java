@@ -17,6 +17,11 @@ public class JoinValidator implements Validator<Member>, RequiredValidator {
      checkRequired(userPw, new BadRequestException("비밀번호를 입력하세요."));
      checkRequired(confirmPw, new BadRequestException("비밀번호를 확인하세요."));
 
+        checkRequired(userNm, new BadRequestException("회원명을 입력하세요."));
+
+
+        // 비밀번호, 비밀번호 확인시 일치 여부
+        checkTrue(userPw.equals(confirmPw), new BadRequestException("비밀번호가 일치하지 않습니다."));
 
 
 

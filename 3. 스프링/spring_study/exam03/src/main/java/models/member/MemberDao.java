@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public class MemberDao {
-
     private static Map<String, Member> members = new HashMap<>();
 
     public void register(Member member) {
