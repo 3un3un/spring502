@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/4. 자바보강.iml" filepath="$PROJECT_DIR$/.idea/4. 자바보강.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationex/annotationex.iml" filepath="$PROJECT_DIR$/annotationex/annotationex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enumex/enumex.iml" filepath="$PROJECT_DIR$/enumex/enumex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wrapper/wrapper.iml" filepath="$PROJECT_DIR$/wrapper/wrapper.iml" />
+    </modules>
+  </component>
+</project>

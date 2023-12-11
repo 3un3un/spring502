@@ -2,11 +2,12 @@ package exam02;
 
 public class Ex01 {
     public static void main(String[] args) {
-        Box<Apple> appleBox = new Box<>(); // 객체가 만들어지는 시점에 <Apple>이 된다.
+        Box<Apple> appleBox = new Box<>();
         appleBox.setItem(new Apple());
 
-        //Apple apple = appleBox.getItem();
+        Apple apple = appleBox.getItem(); // 타입안정성, 형변환 X
 
         Box<Pear> pearBox = new Box<>();
+
     }
 }

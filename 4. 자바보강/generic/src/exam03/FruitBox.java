@@ -10,7 +10,7 @@ public class FruitBox<T> {
         items.add(item);
     }
 
-    public List<T> getItems(){
+    public List<T> getItems() {
         return items;
     }
 }

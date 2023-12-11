@@ -10,3 +10,4 @@ import java.lang.annotation.Target;
 public @interface MyAnno {
     String value(); // 추가적인 정보 전달 설정
 }
+

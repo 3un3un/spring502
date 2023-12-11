@@ -5,7 +5,5 @@ public class Ex02 {
         int num1 = 10;
         long num2 = 20L;
         long num3 = num1 + num2;
-
-
     }
 }

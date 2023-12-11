@@ -8,7 +8,6 @@ public class Ex02 {
         System.out.println(trans);
 
         Transportation trans2 = Transportation.valueOf(str);
-        System.out.println(trans = trans2);
-
+        System.out.println(trans == trans2);
     }
 }

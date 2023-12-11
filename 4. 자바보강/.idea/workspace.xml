@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf75aca8-911f-4d70-a829-774837955e16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/Ex05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. 스프링/spring_study/exam06/src/main/java/exam01/MyResouce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/exam04/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/exam04/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotationex/annotationex/src/exam01/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotationex/annotationex/src/exam01/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotationex/annotationex/src/exam01/MyAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotationex/annotationex/src/exam01/MyAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotationex/annotationex/src/exam02/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotationex/annotationex/src/exam02/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotationex/annotationex/src/exam02/MyAnno2.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotationex/annotationex/src/exam02/MyAnno2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/enumex/enumex/src/exam01/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enumex/enumex/src/exam01/Transportation.java" beforeDir="false" afterPath="$PROJECT_DIR$/enumex/enumex/src/exam01/Transportation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam01/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam01/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam01/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam01/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam01/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam01/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam01/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam01/Pear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam02/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam02/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam02/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam02/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam02/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam02/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam02/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam02/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam02/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam02/Pear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam03/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam03/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam03/FruitBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam03/FruitBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam03/Juicier.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam03/Juicier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/exam03/Pear.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/exam03/Pear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/src/exam01/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/src/exam01/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/src/exam01/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/src/exam01/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/src/exam01/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/src/exam01/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/src/exam01/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/src/exam01/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/src/exam01/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/src/exam01/Ex05.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ZNCPm6zGjRxjzqdF8HOQt2aZxB" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/김은진/4. 자바보강/wrapper/src"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\김은진\4. 자바보강\wrapper\src" />
+      <recent name="D:\김은진\4. 자바보강\generic\src" />
+      <recent name="D:\김은진\4. 자바보강\enumex\enumex\src\exam01" />
+      <recent name="D:\김은진\4. 자바보강\annotationex\annotationex\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf75aca8-911f-4d70-a829-774837955e16" name="Changes" comment="" />
+      <created>1702253127708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702253127708</updated>
+    </task>
+    <servers />
+  </component>
+</project>
