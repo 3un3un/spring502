@@ -19,4 +19,8 @@ public class Box<T extends Fruit> {
         // T -> Fruit, 객체를 만드는 시점 -> 투입된 타입으로 형변환
         item.print();
     }
+
+    public <T> void testMethod(T t) { // 지네릭 메서드 - 메서드가 호출될 때 타입이 결정
+
+    }
 }
