@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layouts/common}">
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorate="~{layouts/common}">
 
 <main layout:fragment="content">
     <h1 th:text="#{회원가입}"></h1>
-    [[${hobbies}]]
+
     <form method="post" th:action="@{/member/join}" th:object="${requestJoin}">
+        <div th:each="err : ${#fields.globalErrors()}" th:text="${err}"></div>
         <dl>
             <dt th:text="#{아이디}"></dt>
             <dd>
                 <input type="text" name="userId" th:field="*{userId}">
-                <!--userId 필드에 대한 에러-->
+                <!-- requestJoin.getUserId() -->
                 <div th:each="err : ${#fields.errors('userId')}" th:text="${err}"></div>
             </dd>
         </dl>
@@ -47,29 +48,8 @@
             </dd>
         </dl>
 
-       <!-- <dl>
-            <dt th:text="#{취미}"></dt>
-            <dd>
-                <th:block th:each="h, status : ${hobbies}">
-                    <input type="checkbox" name="hobby" th:value="${h}" th:id="${'hobby' + status.count}"
-                    th:field="*{hobby}"> // 커맨더 객체
-                    <label th:for="${'hobby' + status.count}" th:text="${hobby}"></label>
-
-                </th:block>
-            </dd>
-        </dl>
-
-        <dl>
-            <dt th:text="#{주소}"></dt>
-            <dd>
-                <input type="text" name="addr.zipcode" th:field="*{addr.zipcode}">
-                <input type="text" name="addr.address" th:field="*{addr.address}">
-                <input type="text" name="addr.addressSub" th:field="*{addr.addressSub}">
-            </dd>
-        </dl>-->
-
         <div>
-            <input type="checkbox" name="agree" value="true" id="agree">
+            <input type="checkbox" name="agree" value="true" id="agree" th:field="*{agree}">
             <label for="agree" th:text="#{회원가입_약관에_동의합니다.}"></label>
             <div th:each="err : ${#fields.errors('agree')}" th:text="${err}"></div>
         </div>

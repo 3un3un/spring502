@@ -1,5 +1,6 @@
 package controllers.member;
 
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import models.member.Member;
@@ -7,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -19,11 +21,11 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MemberController {
 
-
     private final JoinValidator joinValidator;
+    private  final JoinService joinService;
 
     @ModelAttribute("hobbies")
-    public List<String> hobbies(){
+    public List<String> hobbies() {
         return Arrays.asList("자바", "오라클", "JSP", "스프링");
     }
 
@@ -40,18 +42,22 @@ public class MemberController {
     @PostMapping("/join") // /member/join
     public String joinPs(@Valid RequestJoin form, Errors errors, Model model) {
 
+
         joinValidator.validate(form, errors);
-        if(errors.hasErrors()) { // 검증 실패시
+
+        if (errors.hasErrors()) { // 검증 실패시
+
             return "member/join";
         }
+        // 회원 가입 처리
+        joinService.join(form);
 
 
-        //System.out.println(form);
-        // 커맨드객체 RequestJoin -> requetJoin 이름으로 속성이 추가된다.
-        //   -> 템플릿 내에서 바로 접근 가능
-        //model.addAttribute("requestJoin", form);
+        // 커맨객체 RequestJoin  -> requestJoin 이름으로 속성이 추가 -> 템플릿 내에서 바로 접근 가능
+        // response.sendRedirect(request.getContextPath() + "/member/login")
+        // Location: 주소
         return "redirect:/member/login";
-        //return "forward:/member/login";
+
     }
 
 
@@ -89,4 +95,10 @@ public class MemberController {
 
         return "member/list";
     }
+
+    /*
+    @InitBinder
+    protected void initBinder(WebDataBinder binder) {
+        binder.setValidator(joinValidator);
+    }*/
 }

@@ -26,12 +26,7 @@ public class RequestJoin {
 
     @Email
     private String email;
-/*    private List<String> hobby; // String[], Set<String> ..;
-    private Address addr; // 중첩된 커맨드 객체 addr.address*/
 
     @AssertTrue
     private boolean agree;
-
-
-
 }
