@@ -29,25 +29,23 @@ public class JoinValidator implements Validator {
     public void validate(Object target, Errors errors) {
 
 
-        /*
+        /**
          * 1. 필수 항목 검증(userId, userPw, confirmPw, userNm, agree) - O
          * 2. 중복 아이디 여부 체크
          * 3. 아이디 최소 자리수(6자리 이상) 체크 - O
          * 4. 비밀번호 최소 자리수(8자리 이상) 체크 - O
          * 5. 이메일 값은 필수는 아니지만 값이 있으면 형식 체크 - O
          * 6. 비밀번호, 비밀번호 확인 일치여부
-         * 2, 6 제외하고 애노테이션으로 가능
          */
 
         RequestJoin form = (RequestJoin)target;
 
-        // 2. 중복 아이디 여부 체크
+        // 중복 아이디 여부 체크
         String userId = form.getUserId();
         if (StringUtils.hasText(userId) && memberDao.exist(userId)) { // 이미 가입된 아이디
             errors.rejectValue("userId", "Duplicated");
         }
-
-        // 6. 비밀번호, 비밀번호 확인 일치여부
+        
         String userPw = form.getUserPw();
         String confirmPw = form.getConfirmPw();
 
@@ -56,10 +54,11 @@ public class JoinValidator implements Validator {
             errors.rejectValue("confirmPw", "Mismatch");
         }
 
-        /*boolean result = false;
-        if(!result) {
-            errors.reject("ErrorTest", "공통 에러...");
-        }*/
-
+        /*
+        boolean result = false;
+        if (!result) {
+            errors.reject("ErrorTest", "공통 에러....");
+        }
+         */
     }
 }

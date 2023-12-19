@@ -1,8 +1,7 @@
-package controllers.member;
+package models.member;
 
+import controllers.member.RequestJoin;
 import lombok.RequiredArgsConstructor;
-import models.member.Member;
-import models.member.MemberDao;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
@@ -11,15 +10,17 @@ import org.springframework.stereotype.Service;
 public class JoinService {
     private final MemberDao memberDao;
 
+    public void join(RequestJoin form) {
 
-    public void join(RequestJoin form){
-        String hash = BCrypt.hashpw(form.getUserPw(), BCrypt.gensalt(12)); // 12번
+        String hash = BCrypt.hashpw(form.getUserPw(), BCrypt.gensalt(12));
+
         Member member = Member.builder()
                 .userId(form.getUserId())
                 .userPw(hash)
                 .userNm(form.getUserNm())
                 .email(form.getEmail())
                 .build();
+
         memberDao.register(member);
     }
 }
