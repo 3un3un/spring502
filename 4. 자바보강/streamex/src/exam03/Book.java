@@ -7,6 +7,8 @@ public class Book implements Comparable<Book> {
     private String author;
     private String publisher;
 
+    public Book() {}
+
     public Book(String title, String author, String publisher) {
         this.title = title;
         this.author = author;
@@ -41,7 +43,12 @@ public class Book implements Comparable<Book> {
         return o.title.compareTo(title);
     }
 
-//    public String getTitle() {
-//        return title;
-//    }
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
 }
