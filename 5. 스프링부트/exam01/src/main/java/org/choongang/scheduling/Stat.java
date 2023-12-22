@@ -14,11 +14,11 @@ public class Stat {
 //    @Scheduled(cron="*/3 * * * * *") // 3초마다 실행
 //    @Scheduled(fixedDelay = 3000) // 작업 완료 후 3초 지연
 //    @Scheduled(initialDelay = 3, timeUnit = TimeUnit.SECONDS) // 처음만 지연
-    @Scheduled(fixedRate = 3, timeUnit = TimeUnit.SECONDS) // 작업 시간 포함 지연
+    //@Scheduled(fixedRate = 3, timeUnit = TimeUnit.SECONDS) // 작업 시간 포함 지연
 
 
-    public void orderStatProcess() {
-        log.info("주문 통계 진행...");
-    }
+    //public void orderStatProcess() {
+        //log.info("주문 통계 진행...");
+    //}
 
 }
