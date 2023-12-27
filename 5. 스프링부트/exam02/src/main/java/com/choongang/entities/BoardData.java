@@ -7,6 +7,8 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Data
@@ -21,6 +23,13 @@ public class BoardData extends Base{
     @Lob
     @Column(nullable = false)
     private String Content;
+
+    @ManyToOne(fetch = FetchType.LAZY) // N:1 관계
+    @JoinColumn(name="userNo") // 외래키 이름 설정
+    private Member member; // 외래키 제약 조건 생성
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    private List<HashTag> tags = new ArrayList<>();
 
 /*    @CreatedDate
     @Column(updatable = false)
